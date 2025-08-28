@@ -306,6 +306,20 @@ nav a:hover::before {
   width: 100%;
 }
 
+/* ---- DARKEN OVERLAY UNTUK BACKGROUND SLIDE ---- */
+.slides .slide::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.slides .slide > * {
+  position: relative;
+  z-index: 2;
+}
+
 .main-btn a:hover {
   background-color: #fff;
   color: #232323 !important;
