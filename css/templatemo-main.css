@@ -682,10 +682,10 @@ nav a:hover::before {
   background: rgba(0, 0, 0, 0.5);
   padding: 15px 0;
   text-align: center;
-  position: fixed; /* selalu nempel bawah */
+  position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1000; /* biar gak ketutup map/form */
+  z-index: 1000;
 }
 
 .footer .content p {
