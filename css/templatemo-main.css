@@ -1,11 +1,3 @@
-/* 
-
-Moonlight Template 
-
-http://www.templatemo.com/tm-512-moonlight
-
-*/
-
 @keyframes seq-preloader {
   50% {
     opacity: 1;
@@ -685,26 +677,30 @@ nav a:hover::before {
   background-color: #fff;
 }
 
-.footer .content {
-  left: 30%;
-  width: 70%;
-  max-width: 70%;
-  position: absolute;
+.footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+  text-align: center;
+  position: fixed; /* selalu nempel bawah */
   bottom: 0;
-  right: 0;
-  display: inline-block;
+  left: 0;
+  z-index: 1000; /* biar gak ketutup map/form */
 }
 
 .footer .content p {
-  text-align: center;
+  margin: 0;
   font-size: 13px;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 .footer .content p a {
-  color: #aaa;
+  color: #00aced;
   text-decoration: none;
+}
+
+.footer .content p a:hover {
+  text-decoration: underline;
 }
 
 /* REPONSIVE */
