@@ -845,18 +845,39 @@ nav a:hover::before {
 /* --- Tambahan Responsive untuk Header --- */
 @media (max-width: 749px) {
   .first-content h2 {
-    font-size: 24px; /* tablet & HP sedang */
+    font-size: 24px;
   }
 }
 
 @media (max-width: 480px) {
   .first-content h2 {
-    font-size: 20px; /* HP kecil */
+    font-size: 20px;
     line-height: 1.2;
   }
 
   .first-content p {
-    font-size: 11px; /* biar teks deskripsi ikut kecil */
+    font-size: 11px;
     line-height: 20px;
+  }
+}
+/* --- Tambahan Responsive untuk Hover Effect Text --- */
+@media (max-width: 991px) {
+  .fourth-content .item .hover-effect h2 {
+    font-size: 16px;
+  }
+
+  .fourth-content .item .hover-effect p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fourth-content .item .hover-effect h2 {
+    font-size: 14px;
+  }
+
+  .fourth-content .item .hover-effect p {
+    font-size: 11px;
+    line-height: 18px;
   }
 }
