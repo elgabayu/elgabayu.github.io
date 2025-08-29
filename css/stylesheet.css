@@ -311,7 +311,7 @@ nav a:hover::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -836,5 +836,24 @@ nav a:hover::before {
   }
   nav a {
     padding: 15px 20px;
+  }
+}
+
+/* --- Tambahan Responsive untuk Header --- */
+@media (max-width: 749px) {
+  .first-content h2 {
+    font-size: 24px; /* tablet & HP sedang */
+  }
+}
+
+@media (max-width: 480px) {
+  .first-content h2 {
+    font-size: 20px; /* HP kecil */
+    line-height: 1.2;
+  }
+
+  .first-content p {
+    font-size: 11px; /* biar teks deskripsi ikut kecil */
+    line-height: 20px;
   }
 }
