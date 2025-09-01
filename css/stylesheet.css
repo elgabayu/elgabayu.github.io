@@ -881,3 +881,10 @@ nav a:hover::before {
     line-height: 18px;
   }
 }
+.social-links a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+.social-links a:hover {
+  color: #0d6efd; /* Biru bootstrap */
+}
